@@ -3,13 +3,6 @@ import random
 print(">>>>>>>>>>>>>>>>>>>>>>>>>>>Guess the number<<<<<<<<<<<<<<<<<<<<<<<<<<<")
 print("In this game, the computer will randomly choose a number and you have to guess it right.\nHelp will be provided")
 
-try:
-    user_input = int(input("Enter a two digit number:"))
-except ValueError:
-    print("Invalid input.Try again")
-    user_input = int(input("Enter a two digit number:"))
-finally:
-    pass
 print()
 
 
